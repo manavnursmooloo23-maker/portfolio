@@ -1,69 +1,74 @@
 # 🚍 Public Transport Accessibility Analysis (PTV)
 
-## 🔍 Overview
-This project analyses public transport accessibility across Melbourne by integrating transport, geographic, and population datasets. The goal was to evaluate service coverage and identify areas with limited accessibility.
+## 🔍 Overview  
+In this project, I worked in a simulated role as a **Data Analyst at Public Transport Victoria (PTV)**, where I was responsible for managing, integrating, and analysing large-scale transport and demographic datasets to evaluate public transport accessibility across Melbourne.
+
+The project reflects real-world industry conditions, where data is often incomplete, inconsistent, and sourced from multiple systems. As a result, the task required not only generating correct outputs, but also ensuring accurate data interpretation, efficient database design, and optimised query performance.
 
 ---
 
-## 🎯 Objective
+## 🎯 Objective  
 
-- Analyse transport service coverage across suburbs
-- Combine transport and population data for insights
-- Identify gaps in accessibility
-
----
-
-## 🛠 Tools & Technologies
-
-- SQL (PostgreSQL / PostGIS)
-- QGIS (spatial visualisation)
-- GTFS transport data
-- ABS population datasets
+- Analyse public transport accessibility across Melbourne suburbs  
+- Integrate transport (GTFS), geographic, and population datasets  
+- Identify underserved areas with limited transport coverage  
+- Develop efficient and scalable SQL queries for large datasets  
 
 ---
 
-## ⚙️ Methodology
+## 🛠 Tools & Technologies  
 
-### Data Integration
-
-- Combined multiple datasets including transport routes, stops, and population data
-- Structured data into a unified database for analysis
-
-### Data Analysis
-
-- Built SQL queries to compute accessibility metrics
-- Calculated service coverage and transport availability
-
-### Spatial Analysis
-
-- Modelled 400m accessibility catchments
-- Visualised results using QGIS heatmaps
-
-### Performance Optimisation
-
-- Used staged tables to improve query efficiency
-- Applied indexing strategies for large datasets
+- **SQL (PostgreSQL / PostGIS)** – Database design, querying, and spatial analysis  
+- **QGIS** – Spatial visualisation and mapping  
+- **GTFS Data** – Public transport routes, stops, and schedules  
+- **ABS Data** – Population and geographic datasets  
 
 ---
 
-## 📊 Key Insights
+## ⚙️ Methodology  
 
-- Public transport accessibility varies significantly across suburbs
-- Certain areas have limited service coverage despite high population density
-- Spatial visualisation improves understanding of accessibility gaps
+### Data Integration  
+- Imported and structured GTFS transport data and ABS population data into a relational database  
+- Interpreted dataset documentation and resolved inconsistencies across sources  
+
+### Data Processing & Analysis  
+- Developed SQL queries to generate area-level summaries combining transport and population data  
+- Ensured accuracy while considering query performance and scalability  
+
+### Spatial Analysis  
+- Modelled **400m accessibility catchments** around transport stops  
+- Calculated:
+  - **Population coverage (%)** – proportion of people with access  
+  - **Area coverage (%)** – proportion of land with access  
+- Visualised outputs using QGIS  
+
+### Performance Optimisation  
+- Used staged tables and optimised joins  
+- Structured queries to reduce execution time on large datasets  
 
 ---
 
-## 💡 Business Value
+## 📊 Key Insights  
 
-- Supports data-driven transport planning
-- Helps identify underserved areas
-- Provides insights for infrastructure development
+- Public transport accessibility varies significantly across Melbourne  
+- Outer suburban regions show **low population coverage**, indicating underserved communities  
+- High **area coverage does not always translate to high population coverage**, highlighting spatial inefficiencies  
+- Accessibility is concentrated in inner and central regions, with gaps in outer growth areas  
 
 ---
 
-## 🚀 Conclusion
-This project demonstrates the ability to work with large, complex datasets, perform spatial analysis, and generate actionable insights for real-world applications.
+## 💡 Business Value  
+
+- Supports **data-driven transport planning and policy decisions**  
+- Identifies **priority areas for infrastructure investment**  
+- Highlights **inequalities in accessibility across regions**  
+- Demonstrates the value of combining **spatial and demographic analysis**  
+
+---
+
+## 🚀 Conclusion  
+
+This project demonstrates the ability to work with large, complex datasets in a database environment, design efficient SQL queries, and perform spatial analysis to generate meaningful insights. It reflects both technical capability and analytical thinking required in real-world data roles.
 
 ---
 
@@ -71,4 +76,4 @@ This project demonstrates the ability to work with large, complex datasets, perf
 
 - [View Full Project](https://github.com/manavnursmooloo23-maker/ptv-transport-accessibility-analysis)
 
-- [View Case Study](https://github.com/manavnursmooloo23-maker/portfolio-proj/blob/main/projects/ptv-analysis.md)
+
