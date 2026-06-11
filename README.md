@@ -25,5 +25,5 @@ SQL + GIS project analysing transport accessibility across Melbourne.
 ### 🌱 Sustainable Agribusiness Optimisation (NAB Capstone)
 Industry project focused on sustainability, emissions reduction, and project planning.
 
-👉 View Project (coming soon)  
+👉 [View Project](https://github.com/manavnursmooloo23-maker/nab-capstone-sustainability-project)  
 👉 [Case Study](projects/capstone.md)
