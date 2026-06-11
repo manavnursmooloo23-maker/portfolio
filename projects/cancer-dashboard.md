@@ -1,74 +1,59 @@
 # 📈 Cancer Prevalence Dashboard (Victorian Cancer Registry)
 
-## 🔍 Project Overview
+## 🏢 Project Context
 
-Designed and developed the **Cancer Prevalence tab from scratch** for the Cancer Council Victoria Data Explorer using real-world data from the Victorian Cancer Registry (VCR).
+This project was completed as part of a university placement subject in collaboration with the Victorian Cancer Registry (VCR) at Cancer Council Victoria.
 
-The dashboard enables clinicians, researchers, and policymakers to explore cancer prevalence trends through an interactive and intuitive interface.
+Over a three-month period, the work was conducted under the guidance of industry professionals, with regular feedback sessions and weekly meetings to refine both the analytical approach and dashboard design.
 
----
-
-## 🎯 Objectives
-
-* Analyse cancer prevalence trends over time
-* Compare demographic and regional differences
-* Deliver an accessible, interactive dashboard
+Due to the sensitive nature of healthcare data, the analysis was performed using real-world cancer registry data that cannot be shared publicly. The dashboard therefore reflects real-world constraints, including data governance, privacy requirements, and stakeholder-focused design.
 
 ---
 
-## 🛠 Tools & Technologies
+## 🔍 Overview
 
-* Power BI
-* R (data processing and validation)
-* Excel (data preparation)
+Designed and developed the **Cancer Prevalence tab from scratch** for the Cancer Council Victoria Data Explorer.
+
+The dashboard provides an interactive tool for clinicians, researchers, and policymakers to explore cancer prevalence trends across time, demographics, and regions.
+
+---
+
+## 🛠 What I Built
+
+* An interactive Power BI dashboard analysing cancer prevalence
+* Dynamic filters for time window, cancer type, sex, and demographics
+* Custom tooltips and information panels to improve usability
+* A structured data model integrating multiple datasets
 
 ---
 
 ## 📊 Understanding the Dashboard
 
-The dashboard focuses on analysing the **number of people living with cancer (prevalence)** for all malignant tumours.
+The dashboard focuses on **cancer prevalence**, defined as the number of people still alive who have been diagnosed with cancer within a given time period.
 
-It is configured to display:
+It is configured to show:
 
-* Total number of cases (Number)
-* Males and females
-* People diagnosed within the past 5 years
+* People diagnosed within the **past 5 years (5-year prevalence)**
+* Both **male and female populations**
+* **Total number of cases (Number)** and **rates per 100,000 population**
 
-**Cancer prevalence** refers to the number of people who are still alive and have been diagnosed with cancer within a specified time period.
+Using both number and rate allows:
 
-The dashboard also includes **rates per 100,000 population**, which allow fair comparison across:
-
-* Regions
-* Socio-economic groups
-* Population groups
-
----
-
-## 📊 Key Insights
-
-* Cancer prevalence has increased consistently over time, reflecting improved survival and ongoing diagnoses
-
-* Males show a higher prevalence than females, both in total cases and per 100,000 population
-
-* Older age groups (70+) carry the highest burden of cancer prevalence
-
-* Major cities show higher prevalence compared to regional areas, likely due to population density and better access to healthcare
-
-* Socio-economic patterns suggest that less disadvantaged groups show higher prevalence, potentially reflecting improved survival rates
-
-* Lower prevalence observed in some population groups may indicate disparities in access to diagnosis and healthcare rather than lower disease burden
+* Understanding of the **true scale of cases**
+* Fair comparison across **regions, socio-economic groups, and populations**
 
 ---
 
 ## 💡 Business Value
 
-* Supports data-driven healthcare planning
-* Identifies high-risk population groups
-* Highlights regional and socio-economic disparities
-* Improves accessibility of complex health data
+* Supports data-driven healthcare planning and resource allocation
+* Identifies high-risk demographic and geographic groups
+* Highlights inequalities in healthcare access and outcomes
+* Transforms complex registry data into accessible insights for non-technical stakeholders
 
 ---
 
-## 🔗 Links
+## 🔗 Project Link
 
 👉 [View Full Project](https://github.com/manavnursmooloo23-maker/cancer-prevalence-dataExplorer-CCV)
+
