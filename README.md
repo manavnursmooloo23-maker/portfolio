@@ -11,3 +11,10 @@ Power BI dashboard analysing cancer trends using real-world data from the Victor
 
 👉 [View Project](https://github.com/manavnursmooloo23-maker/cancer-prevalence-dataExplorer-CCV)  
 👉 [Case Study](projects/cancer-dashboard.md)
+
+---
+
+### 🚍 Public Transport Accessibility Analysis  
+SQL + GIS project analysing transport accessibility across Melbourne.  
+
+👉 [Case Study](projects/ptv-analysis.md)
