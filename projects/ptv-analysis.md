@@ -69,5 +69,6 @@ This project demonstrates the ability to work with large, complex datasets, perf
 
 ## 🔗 Links
 
-- GitHub Repository: https://github.com/manavnursmooloo23-maker/ptv-transport-accessibility-analysis
-- Portfolio Case Study: https://github.com/manavnursmooloo23-maker/portfolio-proj/blob/main/projects/ptv-analysis.md
+- **Full Project:** [View Repository](https://github.com/manavnursmooloo23-maker/ptv-transport-accessibility-analysis)
+
+- **Case Study:** [View Case Study](https://github.com/manavnursmooloo23-maker/portfolio-proj/blob/main/projects/ptv-analysis.md)
