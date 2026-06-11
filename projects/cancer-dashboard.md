@@ -22,6 +22,56 @@ The goal was to create an interactive tool that allows clinicians, researchers, 
 - Excel (data preparation)
 
 ---
+## 📊 Sample Data Description
+
+The data used in this project is based on cancer prevalence data from the Victorian Cancer Registry (VCR). It represents the number of people living with a cancer diagnosis at a given point in time.
+
+The dataset includes:
+
+* **Timepoints** – Year-based snapshots of prevalence
+* **Prevalence window (LastXYears)** – Represents people diagnosed within a selected period (e.g. 1, 5, 10, 20 years) who are still alive
+* **Sex** – Male, Female, and Persons
+* **Age groups** – (e.g. 0–24, 25–49, 50–69, 70–79, 80+)
+* **Cancer types** – Grouped into main, sub, and detailed tumour categories
+* **Geographical and socio-economic groupings** – Including remoteness, SEIFA, and Integrated Cancer Services regions
+
+Each timepoint represents a complete snapshot for the selected prevalence window. Therefore, values should not be aggregated across multiple timepoints.
+
+For visualisation purposes, the “Persons” category is excluded in certain calculations to avoid double counting, as it already represents the combined total of males and females.
+
+---
+
+## 📊 Key Dataset Labels
+
+### 🟨 Core Time Variables
+
+* **TimePoints** – Year of data snapshot
+* **LastXYears** – Prevalence window (e.g. 1, 5, 10, 20 years)
+
+### 🟩 Demographic Variables
+
+* **Sex** – Male, Female, Persons
+* **timepoint_ageg** – Age group classification
+
+### 🟦 Cancer Classification
+
+* **TUMOUR_GROUP_ID** – Unique cancer identifier
+* **tumourgroup_main** – Main category (e.g. breast, lung)
+* **tumourgroup_sub** – Sub-category
+* **tumourgroup_detail** – Detailed classification
+
+### 🟪 Prevalence Measures
+
+* **Total_Prevalence** – Number of people living with cancer
+* **Perc_of_Vic_pop_within_age_group** – Percentage within age group
+
+### 🟫 Disparity Variables
+
+* **SEIFA** – Socio-economic grouping
+* **Remoteness / Region** – Geographic classification
+* **Integrated Cancer Services (ICS)** – Health service regions
+
+---
 
 ## ⚙️ Methodology
 
