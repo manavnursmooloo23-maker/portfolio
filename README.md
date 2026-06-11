@@ -17,6 +17,7 @@ Power BI dashboard analysing cancer trends using real-world data from the Victor
 ### 🚍 Public Transport Accessibility Analysis  
 SQL + GIS project analysing transport accessibility across Melbourne.  
 
+👉 [View Project](https://github.com/manavnursmooloo23-maker/ptv-transport-accessibility-analysis)  
 👉 [Case Study](projects/ptv-analysis.md)
 
 ---
