@@ -1,9 +1,9 @@
 # 📈 Cancer Prevalence Dashboard (Victorian Cancer Registry)
 
 ## 🔍 Project Overview
-This project involved designing and developing a public-facing Power BI dashboard to analyse cancer prevalence trends in Victoria, using real-world data from the Victorian Cancer Registry (VCR).
+This project involved designing and developing the Cancer Prevalence tab from scratch for the Cancer Council Victoria Data Explorer, using real-world data from the Victorian Cancer Registry (VCR).
 
-The goal was to create an interactive tool that allows clinicians, researchers, policymakers, and the general public to explore cancer prevalence data in a clear and accessible way.
+The objective was to build a public-facing, interactive Power BI dashboard that enables clinicians, researchers, policymakers, and the general public to explore cancer prevalence trends in a clear, intuitive, and accessible way.
 
 ---
 
