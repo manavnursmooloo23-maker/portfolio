@@ -18,3 +18,11 @@ Power BI dashboard analysing cancer trends using real-world data from the Victor
 SQL + GIS project analysing transport accessibility across Melbourne.  
 
 👉 [Case Study](projects/ptv-analysis.md)
+
+---
+
+### 🌱 Sustainable Agribusiness Optimisation (NAB Capstone)
+Industry project focused on sustainability, emissions reduction, and project planning.
+
+👉 View Project (coming soon)  
+👉 [Case Study](projects/capstone.md)
